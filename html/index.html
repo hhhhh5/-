@@ -6,8 +6,11 @@
     <meta name="keywords" content="融信科技,嘉兴网络公司,浙江系统集成,信息系统集成、系统安全运维、数据中心、安防监控及多媒体教学系统">
     <meta name="description" content="浙江融信科技发展有限公司是一家集产品销售、技术服务、系统集成及软件开发为一体的综合性高科技企业，现拥有一批精干的管理人员和一支高素质的专业技术队伍，公司通过销售部、软件事业部、集成技术部、财务审计部、市场部、人事行政部和客户服务中心等职能部门建立强大的支撑保障体系，坚持为客户提供快速、专业、高效的服务。">
     <link rel="stylesheet" href="../css/main.css">
-    <script src="../src/iSlider.animate.min.js"></script>
-    <script src="../src/iSlider.min.js"></script>
+    <link rel="stylesheet" href="../css/slider.css">
+   <link rel="stylesheet" href="../css/base.css">
+   <script src="../src/jquery-2.1.4.min.js"></script>
+   <script src="../src/slider.js"></script>
+   <script src="../src/other.js"></script>
 </head>
 <body>
     <div id="container">
@@ -24,22 +27,80 @@
                        <img src="../images/phone.gif" border="0" style="width: 15px;height: 16px">服务热线电话：1234567
                    </a>
                </div>
-               <div id="logo"></div>
-               <div id="menu">
-                   <ul>
-                       <li><a href="#">首页</a></li>
-                       <li><a href="#">关于融信</a></li>
-                       <li><a href="#">新闻中心</a></li>
-                       <li><a href="#">公司服务</a></li>
-                       <li><a href="#">典型案例</a></li>
-                       <li><a href="#">合作伙伴</a></li>
-                       <li><a href="#">人才招聘</a></li>
-                       <li><a href="#">联系我们</a></li>
-                   </ul>
-               </div>
+               <!-- <div id="logo"></div> -->
+              <div class="top">
+    <div class="w t_cen">
+        <div class="t_c_lr t_c_remain_left"></div>
+        <div class="t_c_logo"><a href="index.html"><img src="../images/logo.png" /></a></div>
+        <div class="t_c_cen">
+           
+            <div class="t_c_bottom">
+                <ul>
+                    <li class="thisli">
+                        <a href="#"><em>官方首页</em><i>Home</i></a>
+                    </li>
+                    <li>
+                        <a href="#"><em>关于融信</em><i>About Us</i></a>
+                        <div class="Nodes">
+                  
+                            <ul id="ul-1">
+                                <li><a href="#">公司简介</a></li>
+                                <li><a href="#">组织架构</a></li>
+                                <li><a href="#">企业荣誉</a></li>
+                                <li><a href="#">企业文化</a></li>
+                            </ul>
+                           
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><em>新闻中心</em><i>News</i></a>
+                    </li>
+                    <li>
+                        <a href="#"><em>公司服务</em><i>Product </i></a>
+                        <div class="Nodes">
+                            <ul id="ul-2">
+                                <li><a href="#">系统集成</a></li>
+                                <li><a href="#">软件开发</a></li>
+                                <li><a href="#">维保服务</a></li>
+                            </ul>  
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><em>典型案例</em><i>Classic Case</i></a>
+                        <div class="Nodes">
+                            <ul id="ul-3">
+                                <li><a href="#">产品优势</a></li>
+                                <li><a href="#">投资优势</a></li>
+                            </ul>
+                           
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><em>合作伙伴</em><i>Partner</i></a>
+                        <div class="Nodes">
+                            <ul id="ul-4">
+                                 <li><a href="#">战略合作</a></li>
+                                  <li><a href="#">客户</a></li>
+                            </ul>   
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><em>人才招聘</em><i>Join Us</i></a>
+                    </li>
+                    <li>
+                        <a href="#"><em>联系我们</em><i>Contact</i></a>
+                    </li>
+                </ul>
+                <div class="thisMenu" id="thisMenu"></div>
+            </div>
+        </div>
+        <div class="t_c_lr t_c_right"></div>
+         <div class="t_c_lr t_c_remain"></div>
+    </div>
+</div>
            </div>
        </div>
-        <div id="banner"></div>
+       <div id="posterTvGrid86804" style="margin:0px auto 0 auto;"></div>
         <div id="sever">公司服务</div>
         <div id="content">
             <div id="news">新闻中心</div>
@@ -51,4 +112,18 @@
     </div>
 </body>
 <script src="../js/mian.js"></script>
+<script>
+   var posterTvGrid86804 = new posterTvGrid('posterTvGrid86804',{className: "posterTvGrid"},[
+        {"img":"../images/0510000052C4D8386714C0314E07D347.jpg","title":"","url":""},
+        {"img":"../images/0510000052C4DA596714C0318D0856B8.jpg","title":"","url":""},
+        {"img":"../images/0510000052B3F93E6714C031680C0ED1.jpg","title":"","url":""},
+        {"img":"../images/05100000523FEFF56714C00E5C08C4C6.jpg","title":"","url":""},
+        {"img":"../images/05100000528F28356714C0318609779F.jpg","title":"","url":""},
+        {"img":"../images/0510000052B8F2896714C031F4094DE4.jpg","title":"","url":""},
+        {"img":"../images/05100000529409176714C03134023DB3.jpg","title":"","url":""},
+        {"img":"../images/0510000052B108766714C031B70E65E6.jpg","title":"","url":""},
+        {"img":"../images/051000005258B54A6714C00F0903829E.jpg","title":"","url":""}
+    ]
+);
+</script>
 </html>
