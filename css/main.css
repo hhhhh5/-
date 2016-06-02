@@ -31,7 +31,8 @@ html,body{
 #home{
     color: #505050;
     margin-top: 20px;
-    float: right;
+    position:absolute;
+    left:855px;
 }
 #home img{
     vertical-align: middle;
