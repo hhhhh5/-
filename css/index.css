@@ -1,0 +1,162 @@
+
+a{
+    text-decoration: none;
+    color: #505050;
+    cursor:pointer;
+}
+li{
+    list-style: none;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+
+#banner{
+    width: 1024px;
+    height: 365px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.s_title{
+    font-size: 20px;
+}
+#content{
+    width: 1024px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #e4e4e6;
+    background-color:white;
+}
+#news{
+    width: 500px;
+    height: 100%;
+    float: left;
+}
+#cases{
+    width: 500px;
+    height: 100%;
+    float: right;
+}
+.line{
+    float: left;
+    width: 5px;
+    height: 300px;
+    background-color: #f7f7f7;
+    margin-top: 60px;
+}
+
+#system{
+   width: 87px;
+    background: url("../images/index_03.png") no-repeat;
+    height: 74px;
+    background-size: 100% 100%;
+    float:left;
+    margin-right:223px;
+}
+#software{
+    width: 87px;
+    background: url("../images/index_05.png") no-repeat;
+    height: 74px;
+    background-size: 100% 100%;
+     float:left;
+    margin-right:210px;
+}
+#defend{
+   width: 87px;
+    background: url("../images/index_07.png") no-repeat;
+    height: 74px;
+    background-size: 100% 100%;
+    float:left;
+}
+#severBox{
+    width:100%;
+    height:75px;
+    margin:15px auto;
+    display:-webkit-flex;
+    display:flex;
+    justify-content:center;
+}
+#severBox span{
+    position:relative;
+    top:75px;
+}
+#severBox a{
+    color:white;
+}
+.leftNav{
+    font-size: 24px;
+    color: #303133;
+    font-family: '微软雅黑';
+    margin-top: 20px;
+    margin-left: 40px;
+    height:60px;
+    width:425px;
+    border-bottom:1px dashed black;
+    color:orange;
+}
+h6{float:left;}
+
+.comTitle{
+    letter-spacing: 2px;
+}
+.rightLine{
+    float: left;
+    width: 250px;
+    height: 1px;
+    border: none;
+    border-top: 1px solid orange;
+}
+.engTitle{
+    font-size: 12px;
+    color:orange;
+    display: block;
+    font-family: Arial;
+}
+.rightMore{
+    float:right;
+    width:44px;
+    font-size:16px;
+    font-family: Arial;
+    // color: #9a9a9a;
+    color:orange;
+    height: 30px;
+    line-height: 30px
+}
+.newPic{
+    margin-top: 20px;
+    margin-left: 40px;
+    width:425px;
+}
+.newPic img{
+     width: 425px;
+    height: 100px;
+}
+.message{
+    font-size: 18px;
+    height:43px
+}
+.mark{
+    width: 4px;
+    height: 4px;
+    background-color: orange;
+    float: left;
+    margin-top: 12px;
+}
+.m-title{
+    padding-left:10px;
+}
+.m-title a:hover{
+    font-size:20px;
+    color:orange;
+}
+.text{
+    width: 243px;
+    color: blue;
+    float: right;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgb(229,228,226);
+}

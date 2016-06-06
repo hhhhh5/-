@@ -1,0 +1,31 @@
+body {
+    background-color: #FAF7F7;
+}
+div#sever {
+    border: 1px solid #fff;
+}
+.cont {
+    border: 1px solid #DFECF2;
+    margin: 15px 0px;
+    -webkit-box-shadow: 3px 3px 10px #9edeff;
+    box-shadow: 3px 3px 10px #BFC2C7;
+}
+
+#content-text {
+    width: 1024px;
+    margin: 15px auto;
+    background-color: white;
+}
+.con-subtitle {
+    margin: 15px 4px;
+    color: #4C70FB;
+    text-align: left;
+    font: inherit;
+}
+.con-detail {
+    text-align: left;
+    font-size: 14px;
+    margin: 4px 4px;
+    padding-bottom: 5px;
+    font-family: Arial,"Microsoft YaHei";
+}

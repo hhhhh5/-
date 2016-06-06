@@ -62,7 +62,6 @@ html,body{
 #sever{
     width: 1024px;
     height: 150px;
-    border: 1px solid blue;
     margin: 15px auto;
     text-align: center;
     background:url("../images/index_02.jpg") no-repeat;

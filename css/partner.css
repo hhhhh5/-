@@ -1,0 +1,51 @@
+body {
+    background-color: #F7F5F5;
+}
+div#sever {
+    border: 1px solid #fff;
+}
+#zl ,#kh{
+    width: 140px;
+    height: 70px;
+    background: url(http://localhost:63342/Templets/images/qipao_active.jpg) 0% 50% no-repeat;
+    font-size: 18px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+#list-nav {
+    width: 1024px;
+    margin: 15px auto;
+    background-color: #fff;
+}
+li#kh {
+    background: url("../images/kh.png") no-repeat;
+}
+li#zl {
+    background: url("../images/zlhz.png") no-repeat;
+}
+div#kh_row {
+    width: 1024px;
+    height: 350px;
+}
+#kh_row div{
+    float: left;
+    width: 30%;
+    height: 350px;
+}
+
+.kh_col {
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-right: 5px;
+}
+h3.kh_title {
+    font-size: 18px;
+    text-align: center;
+    color: #746060;}
+
+.kh_col p {
+    text-align: left;
+    font-family: frutigernext, "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
