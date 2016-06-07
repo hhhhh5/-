@@ -64,7 +64,7 @@ html,body{
     height: 150px;
     margin: 15px auto;
     text-align: center;
-    background:url("../images/index_02.jpg") no-repeat;
+    // background:url("../images/index_02.jpg") no-repeat;
     background-size:100% 100%;
     color:orange;
     font-family: "微软雅黑";
