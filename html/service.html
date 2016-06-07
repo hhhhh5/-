@@ -83,10 +83,10 @@
                         <div class="Nodes">
                   
                             <ul id="ul-1">
-                                <li><a href="about.html">公司简介</a></li>
-                                <li><a href="about1.html">组织架构</a></li>
-                                <li><a href="about2.html">企业荣誉</a></li>
-                                <li><a href="about3.html">企业文化</a></li>
+                                <li><a href="about.html?id=1">公司简介</a></li>
+                                <li><a href="about.html?id=2">组织架构</a></li>
+                                <li><a href="about.html?id=3">企业荣誉</a></li>
+                                <li><a href="about.html?id=4">企业文化</a></li>
                             </ul>
                            
                         </div>
@@ -233,5 +233,14 @@
              </div>
         </div>
     </div>
+<script>
+  var t1=location;
+    var URL=t1.toString();
+  if(URL.indexOf("id")!=-1){
+  var id=URL.split("id=")[1];
+  setTab('menu',id)
+  
+  }
+</script>
 </body>
 </html>
