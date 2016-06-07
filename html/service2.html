@@ -17,7 +17,7 @@
     var e=$('.Menubox ul li').size();
     for(i=1;i<=e;i++){
       var menu=document.getElementById(name+i);
-      var con=document.getElementById("con_"+name+"_"+i);
+      var con=document.getElementById("cons_"+name+"_"+i);
       menu.className=i==cursel?"hover":"";
       con.style.display=i==cursel?"block":"none";
     }
@@ -139,19 +139,19 @@
 <div id="Tab">
   <div class="Menubox">
     <ul id="tab">
-      <li id="menu1" onclick="setTab('menu',1)" class="hover">
+      <li id="menu1" onclick="setTab('menu',1)" >
         <a href="#">硬件平台</a>
         </li>
       <li id="menu2" onclick="setTab('menu',2)" >
         <a href="#">软件平台</a>
       </li>
-      <li id="menu3" onclick="setTab('menu',3)" >
+      <li id="menu3" onclick="setTab('menu',3)" class="hover">
         <a href="#">维保服务</a>
       </li>
     </ul>
   </div>
   <div class="Contentbox">
-    <div id="con_menu_1" class="hover">
+    <div id="cons_menu_1" style="display:none">
       <img src="../images/kj.png" style="height:280px;float: left;padding:20px">
       <h1 class="title">数据中心与综合平台：</h1>
       <p class="article">
@@ -178,7 +178,7 @@
       </p>
       
     </div>
-      <div id="con_menu_2" style="display:none">
+      <div id="cons_menu_2" style="display:none">
         <img src="../images/service_3.png" style="height:500px;float: left;padding:20px">
         <h1 class="title">软件平台：</h1>
         <p class="article">
@@ -186,7 +186,7 @@
         </p>
       
       </div>
-      <div id="con_menu_3" style="display:none">
+      <div id="cons_menu_3" class="hover">
           <img src="../images/service_2.png" style="height:400px;padding:20px">
           <h1 class="title"> 维保服务：</h1>
           <p class="article">

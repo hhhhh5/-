@@ -1,5 +1,5 @@
 body {
-    background-color: #FAF7F7;
+    background-color: #FAFAFA;
 }
 div#sever {
     border: 1px solid #fff;
@@ -17,15 +17,29 @@ div#sever {
     background-color: white;
 }
 .con-subtitle {
-    margin: 15px 4px;
+    margin: 10px;
     color: #4C70FB;
     text-align: left;
     font: inherit;
 }
+
 .con-detail {
     text-align: left;
     font-size: 14px;
     margin: 4px 4px;
-    padding-bottom: 5px;
+    padding: 8px;
+    padding-bottom: 15px;
     font-family: Arial,"Microsoft YaHei";
+}
+
+a#lj {
+    float: right;
+    line-height: 10px;
+    padding-right: 10px;
+    color: #4C70FB;
+    font-weight: 700;
+}
+
+img.textbottom {
+    vertical-align: text-bottom;
 }
