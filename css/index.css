@@ -1,7 +1,7 @@
 
 a{
     text-decoration: none;
-    color: #505050;
+    color: #656565;
     cursor:pointer;
 }
 li{
@@ -23,13 +23,26 @@ li{
 
 .s_title{
     font-size: 20px;
+
 }
 #content{
     width: 1024px;
     height: 400px;
-    margin: 0 auto;
-    border: 1px solid #e4e4e6;
-    background-color:white;
+    margin: 10px auto 10px;
+    // border: 1px solid #e4e4e6;
+    background-color:#f2f2f2;
+}
+#sever1{
+     width: 1024px;
+    height: 150px;
+    // border: 1px solid blue;
+    margin: 30px auto;
+    text-align: center;
+    // background:url("../images/index_02.jpg") no-repeat;
+    background-size:100% 100%;
+    color:#333;
+    font-weight: 700;
+    font-family: "微软雅黑";
 }
 #news{
     width: 500px;
@@ -45,10 +58,20 @@ li{
     float: left;
     width: 5px;
     height: 300px;
-    background-color: #f7f7f7;
+    background-color: white;
     margin-top: 60px;
 }
+.partner{
+    width: 1024px;
+    margin: 10px auto 0;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid #f2f2f2;
 
+}
+.partner img{
+    width: 100%;
+}
 #system{
    width: 87px;
     background: url("../images/index_03.png") no-repeat;
@@ -72,6 +95,11 @@ li{
     background-size: 100% 100%;
     float:left;
 }
+.partner_txt{
+    color: #333;
+    margin-top: 6px;
+}
+
 #severBox{
     width:100%;
     height:75px;
@@ -79,15 +107,19 @@ li{
     display:-webkit-flex;
     display:flex;
     justify-content:center;
+    font-size: 15px;
 }
 #severBox span{
     position:relative;
     top:75px;
 }
 #severBox a{
-    color:white;
+    color:#656565;
 }
-.leftNav{
+#slider img{
+    width: 1024px;
+}
+.leftNav1{
     font-size: 24px;
     color: #303133;
     font-family: '微软雅黑';
@@ -96,7 +128,8 @@ li{
     height:60px;
     width:425px;
     border-bottom:1px dashed black;
-    color:orange;
+    color:#333;
+    font-weight: 700;
 }
 h6{float:left;}
 
@@ -112,9 +145,12 @@ h6{float:left;}
 }
 .engTitle{
     font-size: 12px;
-    color:orange;
+    color:#656565;
     display: block;
     font-family: Arial;
+}
+.ul_box{
+    margin:0 auto;
 }
 .rightMore{
     float:right;
@@ -122,7 +158,7 @@ h6{float:left;}
     font-size:16px;
     font-family: Arial;
     // color: #9a9a9a;
-    color:orange;
+    color:#333;
     height: 30px;
     line-height: 30px
 }
@@ -136,7 +172,7 @@ h6{float:left;}
     height: 100px;
 }
 .message{
-    font-size: 18px;
+    font-size: 16px;
     height:43px
 }
 .mark{
