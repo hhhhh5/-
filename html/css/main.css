@@ -1,11 +1,11 @@
 html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,span,i,a,em,strong,b,input,textarea { margin:0; padding:0; }
 html,body{
     font-size: 12px;
-    font-family: 'ÐÂËÎÌå',Verdana, Geneva, sans-serif;
+    font-family: "微软雅黑";
     overflow-x: auto;
     height: 100%;
-    //background: url("../images/page_main_bg.jpg");
-    background:white;
+    background: url("../images/background.jpg");
+   // background:white;
 }
 #header{
     width: 100%;
@@ -62,11 +62,13 @@ html,body{
 #sever{
     width: 1024px;
     height: 150px;
-    margin: 15px auto;
+    // border: 1px solid blue;
+    margin: 0px auto;
     text-align: center;
     // background:url("../images/index_02.jpg") no-repeat;
     background-size:100% 100%;
-    color:orange;
+    color:#333;
+    font-weight: 700;
     font-family: "微软雅黑";
 }
 #skill_banner{
@@ -114,40 +116,43 @@ html,body{
 }
 #footer{
     width: 100%;
-    height: 200px;
-    background-color:#595959; 
+    height: 57px;
+    background-color:#f2f2f2;
     font-size: 13px;
-    color: white;
+    color: black;
     font-family:"微软雅黑";
     clear:both;
+    margin:10px auto 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
 }
 #honor{
-    width: 1170px;
-    height: 108px;
-    margin: 0 auto;
+    width: 1024px;
+    height: 200px;
+    margin: 0px auto;
+    padding-top:10px; 
+    background: #f2f2f2;
+    text-align: center;
+}
+#honor ul{
+    float: left;
+    text-align: left;
 }
 #honor li{
-    float: left;
-    width: 195px;
+    width: 285px;
     margin-top: 10px;
     font-size: 14px;
 }
 #honor .honor_des{
-    color: orange;
+    
     font-size: 24px;
 }
-.page_footer{
-    background-color:#595959; 
-}
+
 .add_footer{
-    width: 1024px;
-    margin: 40px auto;
+    margin-top: 5px;
 }
-
-
-
-
-
 
 
 .text{
